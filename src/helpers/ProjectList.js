@@ -1,7 +1,7 @@
 
-import Proj1 from "../assets/proj1.jpg"
-import Proj2 from "../assets/proj2.jpg"
-import Proj3 from "../assets/proj3.webp"
+import Proj1 from "../assets/proj1.png"
+import Proj2 from "../assets/proj2.png"
+import Proj3 from "../assets/proj3.png"
 
 
 export const projectList =[
@@ -9,18 +9,21 @@ export const projectList =[
         name : "Portfolio Website",
         image : Proj1,
         skills : "HTML CSS ReactJs",
-        link :""
+        link :"https://github.com/raju1409/myportfolio",
+        visit : "https://rajukommula-c0f06.web.app/"
     },
     {
         name : "Grocery Shopping Application",
         image : Proj2,
         skills : "Core Java",
-        link :"https://github.com/raju1409/Grocery-Shoping-Project-"
+        link :"https://github.com/raju1409/Grocery-Shoping-Project-",
+        visit : ""
     },
     {
         name : "RockPaperScissor with HandDetection using OpenCV",
         image : Proj3,
         skills : "Python",
-        link :"https://github.com/raju1409/PythonProjects-/blob/main/RockPaperScissorwithHandDetection.py"
+        link :"https://github.com/raju1409/PythonProjects-/blob/main/RockPaperScissorwithHandDetection.py",
+        visit : ""
     }
 ]

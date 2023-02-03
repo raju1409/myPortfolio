@@ -17,6 +17,9 @@ function ProjectDisplay() {
         </p>
         <h1 style={{fontSize:"50px" }}><a href={project.link} target="_blank" rel="noreferrer" style={{textDecoration: "none", color: "#21325e"}}>
         <GitHubIcon /> SourceCode</a></h1>
+        {project.visit && <h1 style={{fontSize:"50px" }}><a href={project.visit} target="_blank" rel="noreferrer" style={{textDecoration: "none", color: "#21325e"}}>
+         Visit</a></h1>}
+        
     </div>
   )
 }

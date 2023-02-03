@@ -23,6 +23,7 @@ export function Navbar() {
             <Link to="/"> Home </Link>
             <Link to="/projects"> Projects </Link>
             <Link to="/experience"> Experience </Link>
+            <Link to="https://docs.google.com/document/d/12Be1EXSia5U7o6XTPnOEZGPDmb5LwS6q/edit" target="_blank">Resume</Link>
 
         </div>
 
