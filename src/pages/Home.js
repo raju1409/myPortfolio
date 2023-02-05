@@ -30,16 +30,16 @@ function Home() {
             <h1>Skills</h1>
             <ul className='list'>
                 <li className='item'>
+                    <h2>Programming Languages</h2>
+                    <span> Java Python </span>
+                </li>
+                <li className='item'>
                     <h2>Front-end</h2>
                     <span>HTML CSS JavaScript React TailwindCSS  </span>
                 </li>
                 <li className='item'>
                     <h2>Back-end</h2>
                     <span>NodeJs MySQL </span>
-                </li>
-                <li className='item'>
-                    <h2>Languages</h2>
-                    <span> Java Python </span>
                 </li>
             </ul>
         </div>

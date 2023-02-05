@@ -2,6 +2,7 @@
 import Proj1 from "../assets/proj1.png"
 import Proj2 from "../assets/proj2.png"
 import Proj3 from "../assets/proj3.png"
+import Proj4 from "../assets/proj4.png"
 
 
 export const projectList =[
@@ -24,6 +25,13 @@ export const projectList =[
         image : Proj3,
         skills : "Python",
         link :"https://github.com/raju1409/PythonProjects-/blob/main/RockPaperScissorwithHandDetection.py",
+        visit : ""
+    },
+    {
+        name : "RealtimeChat - Web Application using Socket.io",
+        image : Proj4,
+        skills : "ReactJs HTML CSS NodeJs",
+        link :"https://github.com/raju1409/React-Chat-App-using-Socket-IO",
         visit : ""
     }
 ]

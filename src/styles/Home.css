@@ -30,12 +30,12 @@
   }
   .prompt svg {
     font-size: 60px;
-    margin: 5px;
-    color: white;
+    margin: 25px;
+    color: rgb(162, 167, 174);
   }
   
   .skills {
-    font-size: 35px;
+    font-size: 25px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -54,6 +54,7 @@
   
   .list span {
     font-size: 20px;
+    color: black;
   }
   
   @media only screen and (max-width: 600px) {

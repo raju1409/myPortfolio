@@ -68,9 +68,33 @@ function Experience() {
                 <p>I have worked with a Team for a year on Wireless Networking devices including wifi Access points and Wireless communications. 
                     Handled Generated Tickets before escalations.</p>
             </VerticalTimelineElement>
+
+            <VerticalTimelineElement className='vertical-timeline-element--work' 
+            date='Feb-2021-May-2022'
+            iconStyle={{background: "#e9d35b", color:"#fff" }}
+            icon={<WorkIcon />}
+            >
+                <h3 className='vertical-timeline-element-title'>
+                    Participated in multiple coding Contests
+                </h3>
+                
+                
+                <p>Solved multiple problems on CodeChef and LeetCode</p>
+                <span>Rated 2 Star on CodeChef</span><br></br>
+                <span>Checkout Profile here</span>
+                <div className='link'>
+                
+                <button>
+                <a href="https://www.codechef.com/users/rajukommula" rel='noreferrer' target="_blank">CodeChef</a>
+                </button>
+                <button>
+                <a href="https://leetcode.com/rajukommula/" rel='noreferrer' target="_blank">Leetcode</a>
+                </button>
+                </div>
+            </VerticalTimelineElement>
         </VerticalTimeline>
 
-        <p>Looking for an oppertunity to prove my skills</p>
+        <p id="endtag">Looking for an oppertunity to prove my skills</p>
     </div>
   )
 }
