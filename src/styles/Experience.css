@@ -1,3 +1,8 @@
+.experience{
+  background-color: #f0f0f0;
+  padding-bottom: 50px;
+
+}
 .link button{
     margin-left: 10px;
     margin-top: 10px;
@@ -41,4 +46,10 @@
     max-width: 5in;
     background-color: rgb(220, 225, 227);
     margin-left: 600px;
+}
+@media only screen and (max-width: 600px) {
+  #endtag{
+    max-width: 3in;
+    margin-left: 30px;
+  }
 }
