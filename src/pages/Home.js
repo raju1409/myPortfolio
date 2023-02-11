@@ -9,6 +9,7 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
+
         <h2>Hi, My Name is Raju</h2>
         <div className="prompt">
           <p>A Software developer with a passion for Learning and Creating</p>
@@ -36,8 +37,8 @@ function Home() {
           >
             <GitHubIcon />
           </a>
-          <br></br>
-          <div id="contactmetag">
+
+          <div className="contactmetag">
             <Link to="/contactme">Contact me</Link>
           </div>
         </div>

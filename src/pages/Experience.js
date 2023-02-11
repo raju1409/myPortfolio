@@ -11,12 +11,17 @@ import "../styles/Experience.css";
 function Experience() {
   return (
     <div className="experience">
-      <VerticalTimeline lineColor="#3e497a">
+      <h2>Education and Experience</h2>
+      <VerticalTimeline lineColor="grey" 
+      >
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2014"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          iconStyle={{ background: "#000", color: "#fff" }}
           icon={<SchoolIcon />}
+          contentStyle={{ backgroundColor: "black",
+                          border : "2px solid grey"
+                           }}
         >
           <h3 className="vertical-timeline-element-title">
             Bharathi Vidya Mandir High School, Kothakota
@@ -28,8 +33,11 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2014-2017"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          iconStyle={{ background: "#000", color: "#fff" }}
           icon={<SchoolIcon />}
+          contentStyle={{ backgroundColor: "black",
+          border : "2px solid grey"
+           }}
         >
           <h3 className="vertical-timeline-element-title">
             KDR Govt.Polytechnic College
@@ -41,8 +49,11 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2017-2022"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          iconStyle={{ background: "#000", color: "#fff" }}
           icon={<SchoolIcon />}
+          contentStyle={{ backgroundColor: "black",
+          border : "2px solid grey"
+           }}
         >
           <h3 className="vertical-timeline-element-title">
             Avanthi Institute of Engineering and Technology
@@ -54,8 +65,11 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Feb-2021-May-2022"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          iconStyle={{ background: "#a0986d", color: "#fff" }}
           icon={<WorkIcon />}
+          contentStyle={{ backgroundColor: "black",
+          border : "2px solid grey"
+           }}
         >
           <h3 className="vertical-timeline-element-title">
             TelecomOne Teleservices pvt.ltd
@@ -63,27 +77,33 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">
             Mahbubnagar, Telangana
           </h4>
+          <div className="experience">
           <p>IBS Tech</p>
           <p>
             I have worked with a Team for a year on Wireless Networking devices
             including wifi Access points and Wireless communications. Handled
             Generated Tickets before escalations.
           </p>
+          </div>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          iconStyle={{ background: "#a0986d", color: "#fff" }}
           icon={<WorkIcon />}
+          contentStyle={{ backgroundColor: "black",
+          border : "2px solid grey"
+           }}
         >
           <h3 className="vertical-timeline-element-title">
             Participated in multiple coding Contests
           </h3>
-
+          <div id="codechef">
           <p>Solved multiple problems on CodeChef and LeetCode</p>
           <span>Rated 2 Star on CodeChef</span>
           <br></br>
           <span>Checkout Profile here</span>
+          </div>
           <div className="link">
             <button>
               <a

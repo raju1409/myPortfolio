@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="footer">
-      <div id="contactmetag">
+      <div id="contactme">
             <Link to="/contactme">Contact me</Link>
           </div>
       <div className="socialMedia">

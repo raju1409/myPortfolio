@@ -42,7 +42,7 @@ function ContactMe() {
   };
 
   return (
-    <div>
+    <div >
       {submitted ? (
         <div className="thankyou">
           <center>

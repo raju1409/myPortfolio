@@ -14,27 +14,26 @@ function ProjectDisplay() {
       <p>
         <b>Technologies used :</b> {project.skills}
       </p>
-      <h1 style={{ fontSize: "50px" }}>
+      <h2 >
         <a
           href={project.link}
           target="_blank"
           rel="noreferrer"
-          style={{ textDecoration: "none", color: "#21325e" }}
         >
           <GitHubIcon /> SourceCode
         </a>
-      </h1>
+      </h2>
       {project.visit && (
-        <h1 style={{ fontSize: "50px" }}>
+        <h2 >
           <a
             href={project.visit}
             target="_blank"
             rel="noreferrer"
-            style={{ textDecoration: "none", color: "#21325e" }}
+            
           >
-            Visit
+            Checkout here
           </a>
-        </h1>
+        </h2>
       )}
     </div>
   );
