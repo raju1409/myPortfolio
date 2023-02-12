@@ -26,11 +26,11 @@
 .about h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 70px;
-  color: #72705a;
+  color: #c5ba41;
   height: 50px;
 }
 .about h2:hover{
-  color: #878364;
+  color: #fff9d0;
 }
 /*
 .about h3{
