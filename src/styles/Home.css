@@ -56,8 +56,9 @@
   padding: 30px;
   transition: all 0.1s ease-in-out;
 }
+
 .prompt svg:hover {
-  transform: scale(1.15);
+  transform: scale(1.05);
   filter: drop-shadow(0px 0px 20px white);
   color: white;
 }
@@ -70,16 +71,10 @@
   transition: all 0.1s ease-in-out;
 }
 .contactmetag a:hover {
-  font-size: 30px;
+  font-size: 27px;
   color: white;
   filter: drop-shadow(0px 0px 25px white);
 }
-
-/* .prompt{
-  padding-top: 50px;
-  height: 400px;
-  display: block;
- } */
 
 .skills {
   font-size: 25px;
